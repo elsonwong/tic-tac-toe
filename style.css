@@ -56,5 +56,6 @@ body{
     content:'';
     width: calc(var(--mark-size) * .15);
     height: var(--mark-size);
-    background-color: black;
+    background-color: #000000;
+    
 }
