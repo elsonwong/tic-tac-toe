@@ -67,3 +67,13 @@ body{
 .cell.x::after{
     transform: rotate(-45deg);
 }
+
+.cell.circle::before,
+.cell.circle::after {
+    content:'';
+    position: absolute;
+    width: var(--mark-size);
+    height: var(--mark-size);
+    background-color:black;
+    
+}
