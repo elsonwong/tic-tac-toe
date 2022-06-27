@@ -24,9 +24,12 @@ body{
 
 .cell{
     width: var(--cell-size);
-    height var (--cell-size);
-    width:100px;
-    height: 100px;
-    
+    height: var(--cell-size);  
     border:1px solid black;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+    border-top:none;
 }
