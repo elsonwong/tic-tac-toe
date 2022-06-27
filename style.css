@@ -14,3 +14,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.cell{
+    width:100px;
+    height: 100px;
+    background-color:black;
+}
