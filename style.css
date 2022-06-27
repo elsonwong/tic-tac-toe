@@ -33,3 +33,7 @@ body{
 .cell:nth-child(3) {
     border-top:none;
 }
+
+.cell:nth-child(3n + 1) {
+    border-left: none;
+}
