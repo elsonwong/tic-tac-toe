@@ -30,7 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .cell:first-child,
@@ -57,14 +57,15 @@ body{
 .cell.circle {
     cursor:not-allowed;
 }
+
 .board.x .cell:hover {
 
 }
 
 .cell.x::before,
 .cell.x::after, 
-.board.x .cell:hover::before,
-.boad.x .cell:hover::after {
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after {
     content:'';
     position: absolute;
     width: calc(var(--mark-size) * .15);
