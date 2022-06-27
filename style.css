@@ -27,6 +27,6 @@ body{
     height var (--cell-size);
     width:100px;
     height: 100px;
-    background-color:black;
-    border:1px solid white;
+    
+    border:1px solid black;
 }
