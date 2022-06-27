@@ -4,6 +4,7 @@ box-sizing:border-box;
 }
 :root {
     --cell-size: 100px;
+    --mark-size:cal(var(--cell-size)* .9);
 }
 
 body{
@@ -21,6 +22,7 @@ body{
 
 .cell{
     width: var(--cell-size);
+    height var (--cell-size);
     width:100px;
     height: 100px;
     background-color:black;
