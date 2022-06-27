@@ -53,3 +53,11 @@ if (circleTurn) {
     board.classList.add(X_CLASS)
 }
 }
+
+function checkWin(currentClass) {
+    return WINNING_COMBINATIONS.some(combination =>{
+        return combination.every(index => {
+            return cellElements[index].classList.contains(currentClass)
+        })
+    })
+}
