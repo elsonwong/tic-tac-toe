@@ -13,3 +13,7 @@ function handleClick(e) {
     const currentClass = circleTurn ? CIRCLE_CLASS : X_CLASS
     placeMark(cell, currentClass)
 }
+
+function placeMark(cell, currentClass) {
+    cell.classList.add(currentClass)
+}
