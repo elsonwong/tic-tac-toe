@@ -58,8 +58,8 @@ body{
     cursor:not-allowed;
 }
 
-.board.x .cell:hover {
-
+.board.x .cell:not(.x):not(.circle):hover::before {
+background-color: lightgrey;
 }
 
 .cell.x::before,
@@ -74,11 +74,11 @@ body{
     
 }
 .cell.x::before,
-.board.x .cell:hover::before {
+.board.x .cell:not(.x):not(.circle):hover::before {
     transform: rotate(45deg);
 }
 .cell.x::after,
-.board.x .cell:hover::after {
+.board.x .cell:not(.x):not(.circle):hover::after {
     transform: rotate(-45deg);
 }
 
